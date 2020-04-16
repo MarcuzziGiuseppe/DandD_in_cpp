@@ -1,0 +1,38 @@
+(Vedi)Un Grande salone si presenta davanti a te. La porta si chiude alle tue spalle. In fondo ci sono due porte addornate una a sinistra e una a destra
+
+	(sx)(vedi)Un lungo corridoio, lungo il pavimento c'è un tappeto rovinato, a lato ci sono 3 porte per lato[Dev. Note: tutte chiuse tranne la terza a dx e la prima a sx]
+		(percepisci) un odore dolciastro provenire da una delle porte(1* sx) che ti incuriosisce
+		(udito) senti una donna piangere ed implorare di essere liberata, ma senti anche nella stessa drirezione qualcuno ridacchiare[indaga? 3* porta dx]
+		(1* sx) Una sala da pranzo, cibo fresco sul tavolo e questo odore dolciasto che si propaga per tutta la stanza, 
+			arriva un cuoco anziano che dice "Non pensavo di ricevere visite, ragazzo che ci fai qui?" 
+			e prima ancora che tu possa rispondere "Beh..., non importa. Accomodati pure" facendo segno con la mano e sedendosi a capotavola.
+			Senza rendertene conto ti ritrovi seduto a tavola "Forza mangia pure" dice lui.
+				(Mangi) GAME OVER, senti le forze abbandonarti e subito ti ritrovi accasciato al tavolo, morto.
+				(Non Mangi) Ti alzi dal tavolo e in seguito ad un capogiro la stanza si rivela per quello che è realmente.
+					    E' si una sala da pranzo ma le mura e il tavolo sono sporchi di sangue e ciò che stavi per mangiare erano invece budella di color viola.
+					    Il "cuoco" ora rivelasi un mostro ti attacca [Dev. Note: Ti dropperà la chiave del cuoco]
+
+		(3* dx) Una porta in legno chiusa a chiave[richiede "chiave arrugginita"], adesso che ti sei avvicinato dai rumori e dai gemiti di dolore della donna è chiaro che la stiano torturando.[Dev. Note: potresti mettere un contatore delle azioni se queste superano un certo numero di azioni (es 9) non farai in tempo e la donna morirà dandoti GAME OVER essendo le l'unica a poter aprira la porta d'ingresso ]
+			Una volta dentro ti drova davanti a delle scale che scendono. In fondo alle scale trovi una prigione con una donna legata, piena di ferite. Intorno a le 5 goblin che subito, una volta che ti hanno notato ti attacano.
+			[Fine] Salvata la ragazza lei si presenta come la pradona della magione e ti racconda come suo marito fu ucciso dai mostri che presero il controllo della magione. Ritornati alla porta lei la apre con la sua chiave della casa e fuggite immediatamente verso la città più vicina
+
+	(dx)(RIchiede chiave del cuoco) Una porta in legno solida, chiusa a chiave. 
+					Ti titrovi in una stanza quadrata con tre porte una a destra una davanti e una a sinistra [Piccolo labirinto, dopo aver aperto la porta (una qualsiasi ci si ritrova in una stanza uguale per 3 volte alla terza se non si è fatta la combinazione corretta (che è dx -> dx -> avanti)) si ritornerò al salone principale]
+		((dx -> dx -> avanti)) Ti ritrovi in una stanza circolare con un altare, sembrerebbe una chiesa ma al centro c'è un mostro enorme [boss, io non so che mostri hai tu quindi toh pensa tu a cosa mettere].
+			ucciso il mostro se decidi di controllare l'altare troverai la chiave arruginita
+		(altre combinazioni) Aprendo la porta ti ritrovi stranamente nel salone principale
+
+
+
+la donna muore quando le azioni arrivano 20 
+	la donna è l' unica che ti permette di uscire
+
+finali:
+1) muore perchè riflette sulla vita
+2) muore perchè mangia dal cuoco
+3) muore combattendeo contro il cuoco
+4) muore combattendo contro il boss
+5) muore dentro la casa perchè scopre che la donna è morta per le troppe azioni
+6) muore contro i goblin
+7) salva la donna e la uccude
+8) salva la donna e non la uccide
