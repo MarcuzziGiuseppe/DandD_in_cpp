@@ -1,0 +1,27 @@
+Forza (For). La misura della forza fisica. 
+È importante per i personaggi che combattono corpo a corpo, come guerrieri, monaci e paladini. 
+
+Destrezza (Des). La misura dell'agilità, dell'equilibrio e dei riflessi. 
+È importante per i ladri, per i personaggi che indossano armature leggere o medie e per chi attacca a distanza (con archi e fionde, ad esempio).
+
+Costituzione (Cos). La misura di salute e tempra. 
+Aumenta i punti ferita del personaggio che, quando arrivano a zero, portano alla perdita di coscienza o al decesso.
+
+Intelligenza (Int). La misura della conoscenza. 
+Importante per i maghi e le classi che devono apprendere informazioni o avere capacità logiche, come i paladini.
+
+Saggezza (Sag). La misura del buonsenso. 
+Contribuisce alla consapevolezza e alla forza di volontà. Importante per ranger.
+
+Carisma (Car). La misura del fascino. 
+Un alto punteggio in questa caratteristica rende il personaggio più gradevole, più bello e dalle migliori capacità di comando. È importante per paladini e stregoni.
+
+
+
+
+
+
+
+
+per calcorare lanciare 4 d6 sommare il loro valore.
+ripetere il tutto per for, des, cos, int, sagg, car. 
