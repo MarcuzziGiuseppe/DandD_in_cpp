@@ -1,0 +1,36 @@
+Nel menù principale scelta di combattimento all'infinito.
+
+dove il protagonoista parte con 1 punto abilità in ogni statistica e scegli dove assegnare i 10 punti abilità
+
+dopo 9 mostri scontro contro boss.
+
+dopo aver sconfitto il boss ha il 100 % di drop di 6 punti abilità (da assegnare subito).
+
+le statistiche dei mostri (normali) aumentano del 10 % (rispetto al mostro precedente mentre le statistiche del boss aumentano del 20 % rispetto il l'ultimo mostro
+
+
+statistiche:
+forza,
+costituzione,
+dstrezza,
+fortuna,
+
+
+danno= (danno base arma)+% della forza
+
+Vita= 1.5 * ogni punto assegnato alla costittuzione
+
+schiva= 5.5 * ogni punto assegnato alla destrezza
+
+fortuna= 6 % per ogni punto ablità assegnato 
+	 50 % di droppare 1 punto abilità (nei mostri normali) (accumulabili fino al Boss)
+	 	if (fortuna > 100){
+			fortuna-100
+			rilancio il dado.
+			if (numero che esce è compreso tra 0 e fortuna-100){
+				riceve 2 punti abilità (in totale)
+			}
+		}
+	 nei mostri normali numero che esce è compre tra 0 e 70 droppa un'arma comune se tra 71 e 101 arma rara
+	 nei Boss numero che esce tra 0 e 50 droppa comune tra 51 e 80 rara tra 81 e 95 epica tra 96 e 101 leggendaria
+}
